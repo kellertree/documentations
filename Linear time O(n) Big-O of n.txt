@@ -1,0 +1,27 @@
+Linear time O(n) "Big-O of n"
+Constant time O(9) "Big-O of 1"
+Quadratic time O(n^2) "Big-O of n squared"
+
+Big O analogy:
+
+Let's say you're making dinner for your family. O is the process of following a recipe, and n is the number of times you follow a recipe.
+
+O - You make one dish that everyone eats whether they like it or not. You follow one receipe from top to bottom, then serve (1 recipe). <-- How I grew up
+
+O(n) - You make the individual dishes for each person. You follow a recipe from top to bottom for each person in your family (recipe times the number of people in your family).
+
+O(n^2) - You make individual dishes redundantly for every person. You follow all recipes for each person in your family (recipe times the number of people squared).
+
+O(log n) - You break people into groups according to what they want and make larger portions. You make one dish for each group (recipe times request).
+
+None Analogy:
+
+O(1): This represents constant time complexity. It means that regardless of the size of the input (n), the algorithm will always take the same amount of time to complete. For example, accessing an element in an array by index.
+
+O(n): This represents linear time complexity. It means that the time taken by the algorithm increases linearly with the size of the input. For example, iterating through each element in an array once.
+
+O(n^2): This represents quadratic time complexity. It means that the time taken by the algorithm increases quadratically with the size of the input. For example, nested loops where each loop iterates through the input size.
+
+O(log n): This represents logarithmic time complexity. It means that the time taken by the algorithm increases logarithmically with the size of the input. For example, binary search algorithms where the search space is halved with each step.
+
+In each case, the notation O() indicates how the algorithm's time complexity scales with the size of the input (n), providing insights into its efficiency and performance.
